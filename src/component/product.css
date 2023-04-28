@@ -1,0 +1,27 @@
+.container{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* margin-left: 0px auto; */
+}
+.card{
+    margin: 20px auto;
+    margin-left: 130px;
+    box-shadow: 0px 0px 10px gray;
+    width: 350px;
+    height: 400px;
+    
+}
+.card img{
+    margin: 0px 60px;
+}
+.card button{
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: skyblue;
+    border: none;
+    margin: 20px 50px;
+    
+
+}
